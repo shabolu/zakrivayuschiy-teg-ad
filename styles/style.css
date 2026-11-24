@@ -72,35 +72,35 @@
 }
 
 .card__image-start {
-  filter: brightness(1.02);
+  filter: sepia(0.28) saturate(1.18);
 }
 
 .card__image-blank {
-  filter: grayscale(0.08);
+  filter: grayscale(0.45) contrast(1.08);
 }
 
 .card__image-doubt {
-  filter: saturate(1.04);
+  filter: hue-rotate(12deg) saturate(1.18);
 }
 
 .card__image-ideal {
-  filter: hue-rotate(3deg);
+  filter: contrast(1.16) saturate(0.88);
 }
 
 .card__image-together {
-  filter: saturate(0.96);
+  filter: sepia(0.16);
 }
 
 .card__image-detour {
-  filter: sepia(0.06);
+  filter: hue-rotate(18deg) saturate(1.12);
 }
 
 .card__image-pause {
-  filter: brightness(0.98);
+  filter: grayscale(0.12) brightness(0.88);
 }
 
 .card__image-now {
-  filter: saturate(1.02) contrast(1.01);
+  filter: saturate(1.28) contrast(1.12);
 }
 
 .card__label {
